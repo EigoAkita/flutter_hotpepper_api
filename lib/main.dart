@@ -1,8 +1,22 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
+
+final configProvider = FutureProvider<Map<String, Object?>>((ref) async {
+  final jsonString = await rootBundle.loadString('json/config.json');
+  final content = json.decode(jsonString) as Map<String, Object?>;
+  return content;
+});
 
 class MyApp extends StatelessWidget {
   @override
@@ -12,53 +26,29 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
-
+class MyHomePage extends ConsumerWidget {
   @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
+  Widget build(BuildContext context, ScopedReader watch) {
+    // FutureProviderを読み取る（取得できる型は `AsyncValue<T>`）
+    final config = watch(configProvider);
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      // AsyncValue は `.when` を使ってハンドリングする
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headline4,
-            // ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'インクリメント',
-        child: Icon(Icons.airplanemode_on_sharp),
+        child: config.when(
+            // 非同期処理中は `loading` で指定したWidgetが表示される
+            loading: () => const CircularProgressIndicator(),
+            // エラーが発生した場合に表示されるWidgetを指定
+            error: (error, stack) => Text('Error: $error'),
+            // 非同期処理が完了すると、取得した `config` が `data` で使用できる
+            data: (config) {
+              return Text('${config['appName']}');
+            }),
       ),
     );
   }
