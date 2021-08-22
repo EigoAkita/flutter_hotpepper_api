@@ -38,17 +38,36 @@ class MyHomePage extends ConsumerWidget {
     final config = watch(configProvider);
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text('FutureProviderPage'),
+      ),
       // AsyncValue は `.when` を使ってハンドリングする
       body: Center(
-        child: config.when(
-            // 非同期処理中は `loading` で指定したWidgetが表示される
-            loading: () => const CircularProgressIndicator(),
-            // エラーが発生した場合に表示されるWidgetを指定
-            error: (error, stack) => Text('Error: $error'),
-            // 非同期処理が完了すると、取得した `config` が `data` で使用できる
-            data: (config) {
-              return Text('${config['appName']}');
-            }),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            config.when(
+              // 非同期処理中は `loading` で指定したWidgetが表示される
+              loading: () {
+                return const CircularProgressIndicator();
+              },
+              // loading: () => const CircularProgressIndicator(),
+              // エラーが発生した場合に表示されるWidgetを指定
+              error: (error, stack) => Text('Error: $error'),
+              // 非同期処理が完了すると、取得した `config` が `data` で使用できる
+              data: (config) {
+                return Text('${config['appName']}');
+              },
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text('StreamProvider'),
+            ),
+          ],
+        ),
       ),
     );
   }
