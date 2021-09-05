@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:practice_riverpod/app.dart';
+import 'package:practice_riverpod/hotpepper_list_page.dart';
 
 void main() {
   runApp(
     ProviderScope(
-      child: MyApp(),
+      child: HotPepperListPage(),
     ),
   );
 }

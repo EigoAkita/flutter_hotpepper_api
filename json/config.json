@@ -1,9 +1,0 @@
-{
-    "appName": "SampleApp",
-    "isDebug": true,
-    "defaultAge": 20,
-    "defaultGenders": [
-        "male",
-        "female"
-    ]
-}
