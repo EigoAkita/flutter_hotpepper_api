@@ -1,4 +1,3 @@
-import 'package:flutter/services.dart';
 import 'package:practice_riverpod/core/domain/entity/hotpepper.dart';
 
 class HotPepperListModel {

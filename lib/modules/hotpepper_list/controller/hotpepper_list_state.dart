@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:practice_riverpod/modules%20/%20hotpepper_list/model/hotpepper_list_model.dart';
+import 'package:practice_riverpod/modules/hotpepper_list/model/hotpepper_list_model.dart';
 
-part 'hotpepper_list_stete.freezed.dart';
+part 'hotpepper_list_state.freezed.dart';
 
 @freezed
 class HotPepperListState with _$HotPepperListState {

@@ -1,6 +1,3 @@
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-
 class HotPepper {
   final int? lat;
   final int? lag;
