@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:practice_riverpod/modules/hotpepper_list/controller/hotpepper_list_controller_provider.dart';
+import 'package:practice_riverpod/modules/hotpepper_list/widget/hotpepper_list_item_widget.dart';
 
 class HotPepperListPage extends HookWidget {
   @override
   Widget build(context) {
+    final controller = useProvider(hotPepperListControllerProvider.notifier);
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
@@ -20,9 +24,18 @@ class HotPepperListPage extends HookWidget {
             SizedBox(
               child: TextField(
                 onChanged: (text) {
-                  // onChangedは入力されている文字が変更するたびに呼ばれます
-                  //  model.text = text;
-                  //  model.search();
+                  FutureBuilder(
+                    future: controller.load(searchText: text),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState == ConnectionState.done) {
+                        return _buildList();
+                      } else {
+                        return Center(
+                          child: const CircularProgressIndicator(),
+                        );
+                      }
+                    },
+                  );
                 },
                 decoration: InputDecoration(
                   border: InputBorder.none,
@@ -38,13 +51,7 @@ class HotPepperListPage extends HookWidget {
               ),
             ),
             Expanded(
-              child: FutureBuilder(
-                builder: (context, AsyncSnapshot snapshot) {
-                  return Container(
-                    color: Colors.amber,
-                  );
-                },
-              ),
+              child: _buildList(),
             ),
           ],
         ),
@@ -52,18 +59,18 @@ class HotPepperListPage extends HookWidget {
     );
   }
 
-  // Widget _buildList() {
-  //   return HookBuilder(
-  //     builder: (context) {
-  //       final data = useProvider(
-  //           articleListControllerProvider.select((value) => value.data));
-  //       return ListView.builder(
-  //         itemCount: data.length,
-  //         itemBuilder: (context, index) {
-  //           return ArticleListItemWidget(data[index]);
-  //         },
-  //       );
-  //     },
-  //   );
-  // }
+  Widget _buildList() {
+    return HookBuilder(
+      builder: (context) {
+        final data = useProvider(
+            hotPepperListControllerProvider.select((value) => value.data));
+        return ListView.builder(
+          itemCount: data.length,
+          itemBuilder: (context, index) {
+            return HotPepperListItemWidget(data[index]);
+          },
+        );
+      },
+    );
+  }
 }

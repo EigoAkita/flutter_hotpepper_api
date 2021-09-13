@@ -10,8 +10,9 @@ class HotPepperListController extends StateNotifier<HotPepperListState> {
 
   final HotPepperRepository _hotPepperRepository;
 
-  Future<void> load() async {
-    final hotPepperList = await _hotPepperRepository.fetchRepositories();
+  Future<void> load({required String searchText}) async {
+    final hotPepperList =
+        await _hotPepperRepository.fetchRepositories(searchText: searchText);
 
     state = state.copyWith.call(
         data: hotPepperList.map((e) {

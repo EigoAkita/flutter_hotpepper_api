@@ -7,7 +7,7 @@ class HotPepperRepositoryImpl implements HotPepperRepository {
   HotPepperRepositoryImpl(this._datasource);
 
   @override
-  Future<List<HotPepper>> fetchRepositories() {
-    return _datasource.fetchRepositories();
+  Future<List<ShopData>> fetchRepositories({required String searchText}) {
+    return _datasource.fetchRepositories(searchText: searchText);
   }
 }
