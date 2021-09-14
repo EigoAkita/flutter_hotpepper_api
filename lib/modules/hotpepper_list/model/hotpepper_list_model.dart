@@ -1,10 +1,9 @@
-import 'package:flutter/foundation.dart';
 import 'package:practice_riverpod/core/domain/entity/hotpepper.dart';
 
 class HotPepperListModel {
   final double? lat;
   final double? lng;
-  final Urls? urls;
+  final String? urls;
   final String? name;
   final String? logoImage;
 
@@ -16,13 +15,13 @@ class HotPepperListModel {
     required this.logoImage,
   });
 
-  factory HotPepperListModel.from(ShopData shopData) {
+  factory HotPepperListModel.from(HotPepper hotPepper) {
     return HotPepperListModel._(
-      lat: shopData.lat,
-      lng: shopData.lng,
-      urls: shopData.urls,
-      name: shopData.name,
-      logoImage: shopData.logoImage,
+      lat: hotPepper.lat,
+      lng: hotPepper.lng,
+      urls: hotPepper.urls,
+      name: hotPepper.name,
+      logoImage: hotPepper.logoImage,
     );
   }
 }
