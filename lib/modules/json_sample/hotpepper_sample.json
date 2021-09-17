@@ -1,0 +1,960 @@
+{
+    "results": {
+    "api_version": "1.26",
+    "results_available": 2259,
+    "results_returned": "10",
+    "results_start": 1,
+    "shop": [
+    {
+    "access": "半蔵門線/JR錦糸町駅北口から徒歩1分。アルカキット横のバスロータリーから吉野家の脇の道を進み、ローソン越えてすぐ。",
+    "address": "東京都墨田区錦糸３-１０-１　ツムラビル２F、３Ｆ",
+    "band": "不可",
+    "barrier_free": "なし ：エレベーター完備なのでベビーカーでもお越しになれます。ママ会にもぴったり♪",
+    "budget": {
+    "average": "2001～3000円",
+    "code": "B002",
+    "name": "2001～3000円"
+    },
+    "budget_memo": "お通し300円（コース料理はなし・お通しのお断りは通常不可）",
+    "capacity": 90,
+    "card": "利用可",
+    "catch": "錦糸町No.1の地鶏専門店◎ 鮮度抜群の海鮮の数々！",
+    "charter": "貸切可 ：フロア貸切約30人～60人。立食は約60名まで！同窓会・接待・キックオフ・決起会などにピッタリのコースも♪",
+    "child": "お子様連れ歓迎 ：エレベーター完備なのでベビーカーでもお越しになれます。ママ会にもぴったり♪",
+    "close": "なし",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ000773253/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ000773253/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：単品飲み放題でお1人様 1500円（税抜）",
+    "free_food": "あり ：地鶏料理食べ飲み放題3000円（税抜）",
+    "genre": {
+    "catch": "個室/居酒屋/食べ放題/同窓会/焼き鳥/貸切",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "なし ：個室・テーブル席・カウンター席のみ",
+    "id": "J000773253",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6988784297,
+    "lng": 139.8134973426,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/51/38/P026285138/P026285138_69.jpg",
+    "lunch": "あり",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業していない",
+    "mobile_access": "錦糸町1分/焼鳥･地鶏食べ放題の完全個室居酒屋 ",
+    "name": "鳥錦 とりきん 錦糸町店",
+    "name_kana": "こしつ　いざかや　とりきん　すみびやきとり　きんしちょう",
+    "non_smoking": "禁煙席なし",
+    "open": "月～日、祝日、祝前日: 11:00～15:0016:30～20:00 （料理L.O. 19:00 ドリンクL.O. 19:00）",
+    "other_memo": "英語・中国・韓国語のメニューはホームページの翻訳からご覧になれます。",
+    "parking": "なし ：近隣にコインパーキングあり",
+    "party_capacity": 90,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/80/84/P028268084/P028268084_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/80/84/P028268084/P028268084_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/80/84/P028268084/P028268084_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/80/84/P028268084/P028268084_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/80/84/P028268084/P028268084_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：【完全個室】10室→2名～4名用/7室→4名～6名用/5室→6名～11名用/3室（半個室）→12名～25名用",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "フロア毎の貸切も可能でございます。お気軽にお問合せ下さい。",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G004",
+    "name": "和食"
+    },
+    "tatami": "なし ：姉妹店の『串楽』に大人数の完全個室と座敷席あり",
+    "tv": "なし",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ000773253/?vos=nhppalsa000016"
+    },
+    "wedding": "各種ご宴会承ります。お気軽にご相談ください、同窓会・結婚式の二次会などに◎",
+    "wifi": "あり"
+    },
+    {
+    "access": "JR錦糸町駅 北口 徒歩1分 ●日本人にとってのご馳走魚の“マグロ”と新鮮な“信玄鶏”全席完全個室居酒屋!",
+    "address": "東京都墨田区錦糸２-4-10 6F",
+    "band": "不可",
+    "barrier_free": "あり ：(※バリアフリーの詳細はお店にお問合せください。)",
+    "budget": {
+    "average": "2.980円 喫煙席&禁煙席あります!",
+    "code": "B003",
+    "name": "3001～4000円"
+    },
+    "budget_memo": "お通し380円税抜（コース除く）",
+    "capacity": 80,
+    "card": "利用可",
+    "catch": "大特価!!単品飲み放題!! マグロを存分に味わえる!!",
+    "charter": "貸切不可 ：(お日にちによって30名様から貸切可能。お気軽にご相談ください。)",
+    "child": "お子様連れOK ：お子様大歓迎!完全個室席でお子様連れのお客様も安心♪((錦糸町 個室 焼き鳥 海鮮 飲み放題  貸切  誕生日)",
+    "close": "無休",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001250363/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001250363/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "なし",
+    "free_drink": "あり ：飲み放題付きコース2,500円～(錦糸町 個室 焼き鳥 海鮮 飲み放題  貸切 女子会 誕生日)",
+    "free_food": "なし ：飲み放題付きコース2,500円～(錦糸町 個室 焼き鳥 海鮮 飲み放題  貸切 女子会 誕生日)",
+    "genre": {
+    "catch": "マグロとと信玄どり 個室居酒屋◎",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "なし ：お席は2～80名様迄。貸切最大80名様迄ご案内可能",
+    "id": "J001250363",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6979629708,
+    "lng": 139.8132576776,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/58/74/P037915874/P037915874_69.jpg",
+    "lunch": "あり",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "JR錦糸町駅･北口徒歩1分",
+    "name": "伊勢屋 いせや 錦糸町店",
+    "name_kana": "にじゅうよじまでえいぎょうおさけ　まぐろとしんげんどり　かんぜんこしつ　いせや　きんしちょうてん",
+    "non_smoking": "禁煙席なし",
+    "open": "月～日、祝日、祝前日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
+    "other_memo": "大型TV完備でサッカー・MLB・スポーツ中継⇒放映中。",
+    "parking": "なし ：(近隣にコインパーキングが複数ございます。)",
+    "party_capacity": 80,
+    "pet": "可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/58/76/P037915876/P037915876_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/58/76/P037915876/P037915876_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/58/76/P037915876/P037915876_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/58/76/P037915876/P037915876_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/58/76/P037915876/P037915876_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：お席は2～80名様迄。貸切最大80名様迄ご案内可能",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "お昼のご宴会も承ります。お気軽にご相談下さい。",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "tatami": "なし ：お席は2～80名様迄。貸切最大80名様迄ご案内可能",
+    "tv": "あり",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001250363/?vos=nhppalsa000016"
+    },
+    "wedding": "貸切のパーティーなど承ります。お気軽にご相談下さい。",
+    "wifi": "あり"
+    },
+    {
+    "access": "【三越駅】徒歩1分 駅近なのでアクセス◎ ランチ営業～24時まで休まず元気に営業いたします！！",
+    "address": "東京都中央区日本橋室町１-5-2　東洋ビルB1",
+    "band": "不可",
+    "barrier_free": "なし",
+    "budget": {
+    "average": "【ランチ】1,000円　【ディナー】3,000～4,000円",
+    "code": "B003",
+    "name": "3001～4000円"
+    },
+    "budget_memo": "",
+    "capacity": 80,
+    "card": "利用可",
+    "catch": "生うに×炙り肉寿司が絶品 個室でプライベートな宴会",
+    "charter": "貸切可",
+    "child": "お子様連れOK",
+    "close": "【不定休】",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001270263/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001270263/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "なし",
+    "free_drink": "あり ：【期間限定】単品飲み放題プラン 2時間⇒1,500円　3時間⇒2,000円",
+    "free_food": "あり",
+    "genre": {
+    "catch": "東京 日本橋 三越  完全個室 バル 肉寿司",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "あり",
+    "id": "J001270263",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6857144228,
+    "lng": 139.7744931287,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/47/37/P037894737/P037894737_69.jpg",
+    "lunch": "なし",
+    "middle_area": {
+    "code": "Y010",
+    "name": "東京・大手町・日本橋・人形町"
+    },
+    "midnight": "営業していない",
+    "mobile_access": "【三越駅】徒歩1分 炙り肉寿司や創作和食料理専門店♪",
+    "name": "八兵衛 日本橋店",
+    "name_kana": "こくさんわぎゅうにくずしとさいこうせんどのかいせん　こしついざかや　はちべえ　にほんばしてん",
+    "non_smoking": "禁煙席なし",
+    "open": "月～日、祝日、祝前日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）",
+    "other_memo": "",
+    "parking": "なし",
+    "party_capacity": 80,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/47/41/P037894741/P037894741_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/47/41/P037894741/P037894741_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/47/41/P037894741/P037894741_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/47/41/P037894741/P037894741_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/47/41/P037894741/P037894741_58_s.jpg"
+    }
+    },
+    "private_room": "あり",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "",
+    "show": "なし",
+    "small_area": {
+    "code": "XA2Q",
+    "name": "三越前"
+    },
+    "station_name": "三越前",
+    "sub_genre": {
+    "code": "G002",
+    "name": "ダイニングバー・バル"
+    },
+    "tatami": "なし",
+    "tv": "なし",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001270263/?vos=nhppalsa000016"
+    },
+    "wedding": "",
+    "wifi": "あり"
+    },
+    {
+    "access": "JR総武線錦糸町駅南口／地下鉄半蔵門線錦糸町駅2番出口　徒歩3分　",
+    "address": "東京都墨田区江東橋４-25-5　SK BLD 6F",
+    "band": "不可",
+    "barrier_free": "なし ：エレベーター完備",
+    "budget": {
+    "average": "5000円",
+    "code": "B008",
+    "name": "4001～5000円"
+    },
+    "budget_memo": "チャージ料1000円（個室30分500円）/23時以降深夜チャージ10%",
+    "capacity": 200,
+    "card": "利用可",
+    "catch": "完全個室だから安心！ 錦糸町の非現実的空間",
+    "charter": "貸切不可 ：豪華客船ラウンジで貸切パーティー！会社の宴会・結婚式2次会に人気の会場！",
+    "child": "お子様連れOK ：22：00以降未成年者のご利用ご遠慮いただいております。",
+    "close": "なし",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001275373/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001275373/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：お問い合わせください",
+    "free_food": "なし",
+    "genre": {
+    "catch": "完全個室で安心おこもり",
+    "code": "G006",
+    "name": "イタリアン・フレンチ"
+    },
+    "horigotatsu": "なし",
+    "id": "J001275373",
+    "karaoke": "あり",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6954450166,
+    "lng": 139.8168296979,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/32/34/P019643234/P019643234_69.jpg",
+    "lunch": "なし",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "JR総武線錦糸町駅南口/地下鉄半蔵門線錦糸町駅2番出口",
+    "name": "Ryuduki party room リュウヅキ パーティールーム",
+    "name_kana": "りゅうづきぱーてぃーるーむ",
+    "non_smoking": "全面禁煙",
+    "open": "月～日、祝日、祝前日: 17:00～翌5:00 （料理L.O. 翌3:30 ドリンクL.O. 翌4:30）",
+    "other_memo": "個室にはTV・DVDプレーヤー・カラオケ設備あり　各種宴会におすすめ！",
+    "parking": "あり ：お問い合わせ下さい",
+    "party_capacity": 100,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/75/00/P038167500/P038167500_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/75/00/P038167500/P038167500_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/75/00/P038167500/P038167500_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/75/00/P038167500/P038167500_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/75/00/P038167500/P038167500_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：全10室(2名様～最大20名様まで)",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "デート・女子会・宴会など様々なシーンでご利用いただけます！",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G004",
+    "name": "和食"
+    },
+    "tatami": "なし",
+    "tv": "あり",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001275373/?vos=nhppalsa000016"
+    },
+    "wedding": "",
+    "wifi": "あり"
+    },
+    {
+    "access": "《錦糸町駅徒歩4分》錦糸町No.1★炭火焼き焼き鳥と肉寿司のお店♪贅沢な柔らかい地鶏と厳選肉寿司をお楽しみ♪",
+    "address": "東京都墨田区江東橋４-13-14 2F",
+    "band": "不可",
+    "barrier_free": "なし",
+    "budget": {
+    "average": "3500円",
+    "code": "B002",
+    "name": "2001～3000円"
+    },
+    "budget_memo": "",
+    "capacity": 61,
+    "card": "利用可",
+    "catch": "◎炭火焼き鳥が食べ放題♪ ◎大人気宝箱プレート！！",
+    "charter": "貸切可 ：フロア貸切40～50名様！予算・人数・時間をお気軽にご相談下さい！≪各種宴会≫",
+    "child": "お子様連れOK ：混み合う為、早めの時間帯でしたらお子様連れOKです。完全個室やソファー席もご用意していますのでご安心♪",
+    "close": "毎日営業♪無休で休まず営業中☆錦糸町で女子会/誕生日/貸切/歓迎会・送別会をお考えでしたら当店へお越し下さい♪",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001265524/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001265524/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：食べ飲み放題コース2500円～",
+    "free_food": "あり ：食べ飲み放題コース2500円～",
+    "genre": {
+    "catch": "錦糸町No.1★女性人気抜群！焼き鳥 肉寿司",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "なし ：残念ながら掘り炬燵はありませんが、錦糸町で個室居酒屋/女子会/誕生日/個室/歓送迎会/記念日/宴会に最適",
+    "id": "J001265524",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6940993353,
+    "lng": 139.8168500282,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/09/92/P037450992/P037450992_69.jpg",
+    "lunch": "あり",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業していない",
+    "mobile_access": "JR錦糸町駅 徒歩4分 ◎ﾎﾟｲﾝﾄ 5倍対象店舗◎",
+    "name": "個室居酒屋 鳥物語 錦糸町店",
+    "name_kana": "やきとり　にくずし　たべほうだい　のみほうだい　こしついざかや　とりものがたり　きんしちょうてん",
+    "non_smoking": "全面禁煙",
+    "open": "月～日、祝日、祝前日: 13:00～20:00 （料理L.O. 19:00 ドリンクL.O. 19:00）",
+    "other_memo": "貸切時はプロジェクター、100インチの大型スクリーン、マイク、音響設備貸出無料♪",
+    "parking": "あり ：お近くのコインパーキングをご利用ください。",
+    "party_capacity": 70,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/39/27/P038043927/P038043927_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/39/27/P038043927/P038043927_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/39/27/P038043927/P038043927_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/39/27/P038043927/P038043927_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/39/27/P038043927/P038043927_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：ソファー70席　個室4名様～最大50名様　カラオケ付個室10～20名★テーブル席には大型テレビを完備♪",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "営業時間外の居酒屋宴会もお気軽にお問合せ下さい♪完全個室もご用意あります♪",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G002",
+    "name": "ダイニングバー・バル"
+    },
+    "tatami": "なし ：残念ながら座敷はありませんが、錦糸町で個室居酒屋/女子会/誕生日/個室宴会/歓送迎会/記念日/宴会に最適!",
+    "tv": "あり",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001265524/?vos=nhppalsa000016"
+    },
+    "wedding": "※貸切などパーティーを承ります。お気軽にご相談下さい",
+    "wifi": "あり"
+    },
+    {
+    "access": "JR総武線 錦糸町駅 徒歩1分/半蔵門線　錦糸町駅　徒歩1分",
+    "address": "東京都墨田区錦糸２－２－１アルカキット錦糸町１０Ｆ",
+    "band": "不可",
+    "barrier_free": "なし ：※お手伝いが必要な方はスタッフまでお申し付け下さい。",
+    "budget": {
+    "average": "3000円/年末年始とお盆休みは週末価格",
+    "code": "B002",
+    "name": "2001～3000円"
+    },
+    "budget_memo": "ご不明点等ございましたらお気軽に店舗までお問い合わせ下さい。",
+    "capacity": 120,
+    "card": "利用可",
+    "catch": "テイクアウト1350円～ フルーツビュッフェ開催中",
+    "charter": "貸切不可 ：貸切は行っておりません。",
+    "child": "お子様連れ歓迎 ：お子様連れ大歓迎です。ご家族でもゆったりお食事可能です！",
+    "close": "テナント休館日",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001053944/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001053944/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "なし",
+    "free_drink": "なし ：ソフトドリンク飲み放題220円（税込）",
+    "free_food": "あり ：ディナーはモチロン、お得なランチ食べ放題も実施中♪",
+    "genre": {
+    "catch": "◆熱々！揚げたて”串揚げ”食べ放題の店",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "なし ：掘り炬燵席のご用意はございませんが、お席のレイアウトご希望等お気軽にご相談下さい。",
+    "id": "J001053944",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6974791064,
+    "lng": 139.8121391809,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/34/77/P027563477/P027563477_69.jpg",
+    "lunch": "あり",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業していない",
+    "mobile_access": "JR総武線 錦糸町駅徒歩1分/半蔵門線 錦糸町駅徒歩1分",
+    "name": "串家物語 アルカキット錦糸町店",
+    "name_kana": "くしやものがたり　あるかきっときんしちょうてん",
+    "non_smoking": "全面禁煙",
+    "open": "月～日、祝日、祝前日: 11:00～22:30 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+    "other_memo": "※不明点等、お気軽に店舗へご相談下さい。",
+    "parking": "なし ：近隣の駐車場をご利用ください",
+    "party_capacity": 60,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/06/30/P038260630/P038260630_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/06/30/P038260630/P038260630_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/06/30/P038260630/P038260630_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/06/30/P038260630/P038260630_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/06/30/P038260630/P038260630_58_s.jpg"
+    }
+    },
+    "private_room": "なし ：個室のご用意はございませんが、お席のレイアウトご希望等お気軽にご相談下さい。",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "ご不明点等ございましたらお気軽に店舗までお問い合わせ下さい。",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G004",
+    "name": "和食"
+    },
+    "tatami": "なし ：お座敷席のご用意はございませんが、お席のレイアウトご希望等お気軽にご相談下さい。",
+    "tv": "なし",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001053944/?vos=nhppalsa000016"
+    },
+    "wedding": "ご不明点等ございましたらお気軽に店舗までお問い合わせ下さい。",
+    "wifi": "あり"
+    },
+    {
+    "access": "錦糸町駅 徒歩1分《錦糸町駅徒歩1分！誕生日会！錦糸町居酒屋肉バル肉寿司焼き鳥＆鍋が食べ飲み放題で》",
+    "address": "東京都墨田区江東橋４-20-4　エメラルドビル2F",
+    "band": "不可",
+    "barrier_free": "あり ：バリアフリーの詳細につきましてはお問い合わせください。",
+    "budget": {
+    "average": "3000円《焼き鳥やしゃぶしゃぶ鍋が食べ飲み放題が大人気！》",
+    "code": "B002",
+    "name": "2001～3000円"
+    },
+    "budget_memo": "お通しあり（コース除く）",
+    "capacity": 80,
+    "card": "利用不可",
+    "catch": "3時間飲み放題付コース◎ 錦糸町のお洒落な個室空間",
+    "charter": "貸切可 ：貸切宴会承ります。お気軽にお問い合わせください。",
+    "child": "お子様連れ歓迎 ：完全個室席でのご案内でお子様連れも安心♪（錦糸町での女子会やママ会に！）",
+    "close": "日曜定休（営業時間外の団体様のご宴会も承ります。お気軽にお電話ください。）",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001027738/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001027738/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：最大3時間の飲み放題付きコースをご用意！人気の香るエールも飲める！",
+    "free_food": "あり ：当店一押しの食べ放題コースは人気のお料理をお楽しみ頂けます！",
+    "genre": {
+    "catch": "錦糸町 居酒屋 肉寿司 焼き鳥 シュラスコ",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "なし ：完全個室席も完備！開放感溢れるテーブルダイニングと完全個室で2～80名様まで♪",
+    "id": "J001027738",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6951378018,
+    "lng": 139.8158139632,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/62/74/P037696274/P037696274_69.jpg",
+    "lunch": "あり",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "錦糸町駅徒歩1分《焼き鳥&鍋が食べ飲み放題で》",
+    "name": "個室居酒屋ダイニング 天の川 錦糸町店",
+    "name_kana": "にくずしあんどやきとり　こしついざかやだいにんぐ　あまのがわ　きんしちょうてん",
+    "non_smoking": "禁煙席なし",
+    "open": "月～日、祝日、祝前日: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:00～翌0:00 （料理L.O. 23:30 ドリンクL.O. 23:30）",
+    "other_memo": "お昼のご宴会も承ります。お気軽にお申し付けください。",
+    "parking": "あり ：お近くのコインパーキングをご利用ください。",
+    "party_capacity": 80,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/62/75/P037696275/P037696275_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/62/75/P037696275/P037696275_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/62/75/P037696275/P037696275_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/62/75/P037696275/P037696275_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/62/75/P037696275/P037696275_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：完全個室席も完備！開放感溢れるテーブルダイニングと完全個室で2～80名様まで♪",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "ペットの同伴不可",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G002",
+    "name": "ダイニングバー・バル"
+    },
+    "tatami": "なし ：完全個室席も完備！開放感溢れるテーブルダイニングと完全個室で2～80名様まで♪",
+    "tv": "なし",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001027738/?vos=nhppalsa000016"
+    },
+    "wedding": "結婚式の二次会や各種パーティー承ります。お気軽にご相談ください。",
+    "wifi": "あり"
+    },
+    {
+    "access": "★JR錦糸町駅南口★より徒歩１分!!各種宴会には、交通アクセス抜群の駅チカ個室居酒屋 鮮や一夜を是非ご利用ください◎",
+    "address": "東京都墨田区江東橋２-19-1　テルミナ3　5階",
+    "band": "不可",
+    "barrier_free": "なし ：車いすでのご来店など、バリアフリーの詳細はお気軽に当店までお問い合わせください",
+    "budget": {
+    "average": "3500円（通常平均）/2500円(宴会平均)",
+    "code": "B008",
+    "name": "4001～5000円"
+    },
+    "budget_memo": "席料としてお通し代あり。（コース時は料金に含まれます）",
+    "capacity": 108,
+    "card": "利用可",
+    "catch": "早割・遅割特典20％OFF 錦糸町で海鮮＆銘酒を堪能",
+    "charter": "貸切不可 ：要相談。当店は全席個室ですので、一部フロア貸切など、詳細はお気軽に店舗までご相談ください",
+    "child": "お子様連れ歓迎 ：お子様連れ・ご家族の方も大歓迎！完全個室完備ですので、安心してご利用いただけます",
+    "close": "月",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001134572/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001134572/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：飲み放題付コースも種類豊富にご用意。女子会や合コンなど、各種宴会・飲み会のご予約承っておりま",
+    "free_food": "なし ：鮮度・素材・調味料・調理法にこだわった海鮮・和食料理やコースを種類多数ご用意しております",
+    "genre": {
+    "catch": "錦糸町 居酒屋 鍋 個室 和食 宴会 合コン",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "あり ：ゆったりとお過ごしいただける掘りごたつ席をご用意♪ご希望の個室がございましたらお気軽にご相談ください",
+    "id": "J001134572",
+    "karaoke": "あり",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6962945371,
+    "lng": 139.8128677779,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/72/11/P018867211/P018867211_69.jpg",
+    "lunch": "なし",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "★錦糸町駅南口★より徒歩1分の個室居酒屋 鮮や一夜",
+    "name": "鮮や一夜 テルミナ錦糸町駅前店",
+    "name_kana": "ぜんせきこしつ　せんやいちや　てるみなきんしちょうえきまえてん",
+    "non_smoking": "全面禁煙",
+    "open": "火～日、祝日、祝前日: 17:00～23:30",
+    "other_memo": "その他ご要望がありましたら、店舗までお気軽にお問い合わせください",
+    "parking": "なし ：近隣のコインパーキングをご利用ください。尚ドライバーの方の飲酒はご遠慮願います",
+    "party_capacity": 26,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/44/77/P036464477/P036464477_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/44/77/P036464477/P036464477_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/44/77/P036464477/P036464477_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/44/77/P036464477/P036464477_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/44/77/P036464477/P036464477_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：少人数向け個室から宴会用個室まで、2名～最大26名様対応！シーンに合わせて最適な個室へご案内いたします",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "錦糸町での各種宴会なら是非、個室居酒屋 鮮や一夜 テルミナ錦糸町店へどうぞ！昼飲みもOK！",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G002",
+    "name": "ダイニングバー・バル"
+    },
+    "tatami": "なし ：お座敷席のご用意はございませんが、お席のレイアウトなど、お気軽にご相談ください",
+    "tv": "なし",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001134572/?vos=nhppalsa000016"
+    },
+    "wedding": "応相談※各種パーティーや結婚式二次会もお手伝いいたします。お気軽にご相談ください",
+    "wifi": "なし"
+    },
+    {
+    "access": "【JR錦糸町駅南口徒歩1分】  各線錦糸町駅徒歩1分",
+    "address": "東京都墨田区江東橋３-8-11　おいてけ堀MSMビル９階フロア",
+    "band": "不可",
+    "barrier_free": "なし ：お店の入り口までお手伝いが必要な際は、お気軽にお声かけください。",
+    "budget": {
+    "average": "2,200円（宴会平均）　個室完備◎",
+    "code": "B002",
+    "name": "2001～3000円"
+    },
+    "budget_memo": "貸切やコースのご相談など気軽にご相談下さい！",
+    "capacity": 100,
+    "card": "利用可",
+    "catch": "ご宴会に最適な完全個室 お会計上限が2400円！！",
+    "charter": "貸切可 ：宴会、貸切も歓迎。気軽にご相談下さい！",
+    "child": "お子様連れOK ：お子様向けのメニューをご希望のお客様はお気軽にご相談下さい★",
+    "close": "無休",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ001250935/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ001250935/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "なし",
+    "free_drink": "あり ：ドリンクメニュー多数ご用意！",
+    "free_food": "あり ：食べ放題50種類ご用意！",
+    "genre": {
+    "catch": "錦糸町 個室 居酒屋 食べ放題 歓送迎会 肉",
+    "code": "G001",
+    "name": "居酒屋"
+    },
+    "horigotatsu": "あり ：お座敷＋掘りごたつタイプのお席になります。詳細はお気軽にお問合せ下さい。",
+    "id": "J001250935",
+    "karaoke": "なし",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6951622164,
+    "lng": 139.814804048,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/01/60/P036330160/P036330160_69.jpg",
+    "lunch": "なし",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "【JR錦糸町駅南口徒歩1分】  各線錦糸町駅徒歩1分",
+    "name": "食いだをれ酒場 covaco 錦糸町店",
+    "name_kana": "にせんよんひゃくえんいじょうのおかいけいはちょうだいしませんくいだをれさかばこばこきんしちょうてん",
+    "non_smoking": "禁煙席なし",
+    "open": "月～木、日、祝日: 15:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土、祝前日: 15:00～翌5:00 （料理L.O. 翌3:30 ドリンクL.O. 翌4:00）",
+    "other_memo": "ランチタイムのお昼宴や貸切などのご利用も大歓迎です☆気軽にご相談下さい！",
+    "parking": "なし ：近隣にコインパーキングがございますので、そちらをご利用下さい。",
+    "party_capacity": 100,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/05/00/P037370500/P037370500_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/05/00/P037370500/P037370500_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/05/00/P037370500/P037370500_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/05/00/P037370500/P037370500_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/05/00/P037370500/P037370500_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：個室希望の方はご予約時にお電話下さい。",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "錦糸町 居酒屋 個室 均一 食べ放題 飲み放題  歓送迎会 歓迎会 送迎会 誕生日 もつ鍋",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G002",
+    "name": "ダイニングバー・バル"
+    },
+    "tatami": "あり ：お座敷＋掘りごたつタイプのお席になります。詳細はお気軽にお問合せ下さい。",
+    "tv": "あり",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ001250935/?vos=nhppalsa000016"
+    },
+    "wedding": "2次会、3次会にピッタリな中規模～大規模個室をご用意しております",
+    "wifi": "なし"
+    },
+    {
+    "access": "JR総武線錦糸町駅南口／地下鉄半蔵門線錦糸町駅2番出口　徒歩3分　",
+    "address": "東京都墨田区江東橋４－２５－５　ＳＵＺＵＫＩ　ＢＬＤ　６Ｆ",
+    "band": "不可",
+    "barrier_free": "なし ：エレベーター完備",
+    "budget": {
+    "average": "5000円",
+    "code": "B008",
+    "name": "4001～5000円"
+    },
+    "budget_memo": "チャージ料1000円（個室30分500円）/23時以降深夜チャージ10%",
+    "capacity": 200,
+    "card": "利用可",
+    "catch": "錦糸町の非現実的空間 【人気】誕生日記念日利用",
+    "charter": "貸切不可 ：豪華客船ラウンジで貸切パーティー！会社の宴会・結婚式2次会に人気の会場！",
+    "child": "お子様連れOK ：22：00以降未成年者のご利用ご遠慮いただいております。",
+    "close": "なし",
+    "coupon_urls": {
+    "pc": "https://www.hotpepper.jp/strJ000712971/map/?vos=nhppalsa000016",
+    "sp": "https://www.hotpepper.jp/strJ000712971/scoupon/?vos=nhppalsa000016"
+    },
+    "course": "あり",
+    "english": "あり",
+    "free_drink": "あり ：お問い合わせください",
+    "free_food": "なし",
+    "genre": {
+    "catch": "リゾートのような非日常空間アクアリウム",
+    "code": "G006",
+    "name": "イタリアン・フレンチ"
+    },
+    "horigotatsu": "なし",
+    "id": "J000712971",
+    "karaoke": "あり",
+    "ktai_coupon": 0,
+    "large_area": {
+    "code": "Z011",
+    "name": "東京"
+    },
+    "large_service_area": {
+    "code": "SS10",
+    "name": "関東"
+    },
+    "lat": 35.6954961235,
+    "lng": 139.81688608,
+    "logo_image": "https://imgfp.hotp.jp/IMGH/32/34/P019643234/P019643234_69.jpg",
+    "lunch": "なし",
+    "middle_area": {
+    "code": "Y017",
+    "name": "錦糸町・浅草橋・両国・亀戸"
+    },
+    "midnight": "営業している",
+    "mobile_access": "JR総武線錦糸町駅南口/地下鉄半蔵門線錦糸町駅2番出口",
+    "name": "Ryuduki リュウヅキ 錦糸町",
+    "name_kana": "あくありうむだいにんぐりゅうづき",
+    "non_smoking": "全面禁煙",
+    "open": "月～日、祝日、祝前日: 17:00～翌5:00 （料理L.O. 翌3:30 ドリンクL.O. 翌4:30）",
+    "other_memo": "個室にはTV・DVDプレーヤー・カラオケ設備あり★各種宴会におすすめ！",
+    "parking": "あり ：お問い合わせ下さい",
+    "party_capacity": 100,
+    "pet": "不可",
+    "photo": {
+    "mobile": {
+    "l": "https://imgfp.hotp.jp/IMGH/02/17/P038000217/P038000217_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/02/17/P038000217/P038000217_100.jpg"
+    },
+    "pc": {
+    "l": "https://imgfp.hotp.jp/IMGH/02/17/P038000217/P038000217_238.jpg",
+    "m": "https://imgfp.hotp.jp/IMGH/02/17/P038000217/P038000217_168.jpg",
+    "s": "https://imgfp.hotp.jp/IMGH/02/17/P038000217/P038000217_58_s.jpg"
+    }
+    },
+    "private_room": "あり ：全10室(2名様～最大20名様まで)",
+    "service_area": {
+    "code": "SA11",
+    "name": "東京"
+    },
+    "shop_detail_memo": "デート・女子会・宴会など様々なシーンでご利用いただけます！",
+    "show": "なし",
+    "small_area": {
+    "code": "X193",
+    "name": "錦糸町"
+    },
+    "station_name": "錦糸町",
+    "sub_genre": {
+    "code": "G006",
+    "name": "イタリアン・フレンチ"
+    },
+    "tatami": "なし",
+    "tv": "あり",
+    "urls": {
+    "pc": "https://www.hotpepper.jp/strJ000712971/?vos=nhppalsa000016"
+    },
+    "wedding": "結婚式2次会に人気の会場★経験豊富なスタッフがパーティーのお手伝いを致します！",
+    "wifi": "あり"
+    }
+    ]
+    }
+    }

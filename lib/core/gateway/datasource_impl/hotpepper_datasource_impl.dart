@@ -12,23 +12,13 @@ class HotPepperDatasourceImpl extends HotPepperDatasource {
     final url = Uri.parse(
       'https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=$apiKey&name_any=$searchText&range=5&order=4&format=json',
     );
-    // List<ShopData> hotPepperList = [];
     final result = await http.get(url);
     print(result.body);
     if (result.statusCode == 200) {
-      // final List<dynamic> jsonArray = json.decode(result.body);
-      // final hotPepperList =
-      //     jsonArray.map((json) => HotPepper.fromjson(json)).toList();
-      // return hotPepperList;
-
-      // jsonList.forEach((e) {
-      //   hotPepperList.add(ShopData.fromjson(e));
-      // });
-      // return hotPepperList;
-
       var list = json.decode(result.body)['results']['shop'] as List;
       List<HotPepper> shopDataList =
           list.map((e) => HotPepper.fromjson(e)).toList();
+
       return shopDataList;
     } else {
       return Future.error(Exception());

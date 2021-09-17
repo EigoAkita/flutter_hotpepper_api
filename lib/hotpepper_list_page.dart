@@ -8,15 +8,13 @@ class HotPepperListPage extends HookWidget {
   @override
   Widget build(context) {
     final controller = useProvider(hotPepperListControllerProvider.notifier);
+    final textController = TextEditingController();
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.orange,
           title: Text(
-            'HotpepperグルメAPI',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-            ),
+            'HOT PEPPER API',
           ),
         ),
         body: Column(
@@ -24,18 +22,7 @@ class HotPepperListPage extends HookWidget {
             SizedBox(
               child: TextField(
                 onChanged: (text) {
-                  FutureBuilder(
-                    future: controller.load(searchText: text),
-                    builder: (context, snapshot) {
-                      if (snapshot.connectionState == ConnectionState.done) {
-                        return _buildList();
-                      } else {
-                        return Center(
-                          child: const CircularProgressIndicator(),
-                        );
-                      }
-                    },
-                  );
+                  controller.load(searchText: textController.text = text);
                 },
                 decoration: InputDecoration(
                   border: InputBorder.none,
@@ -46,12 +33,23 @@ class HotPepperListPage extends HookWidget {
                     Icons.search,
                     color: Colors.black,
                   ),
-                  hintText: "名前で調べる...",
+                  hintText: 'お店 ジャンルなど...',
                 ),
               ),
             ),
             Expanded(
-              child: _buildList(),
+              child: FutureBuilder(
+                future: controller.load(searchText: textController.text),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.done) {
+                    return _buildList();
+                  } else {
+                    return Center(
+                      child: const CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
             ),
           ],
         ),

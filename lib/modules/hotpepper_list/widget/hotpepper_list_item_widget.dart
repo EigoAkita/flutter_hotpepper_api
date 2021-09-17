@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:practice_riverpod/modules/hotpepper_list/model/hotpepper_list_model.dart';
+import 'package:practice_riverpod/modules/hotpepper_list/widget/hotpepper_web_view.dart';
 
 class HotPepperListItemWidget extends StatelessWidget {
   final HotPepperListModel _model;
@@ -11,35 +12,42 @@ class HotPepperListItemWidget extends StatelessWidget {
     return Card(
       child: Column(
         children: <Widget>[
-          Text('${_model.lat}'),
-          Text('${_model.lng}'),
-          Text('${_model.urls}'),
-          Text('${_model.name}'),
-          // Text('${_model.logoImage}'),
+          SizedBox(
+            height: 10,
+          ),
+          ListTile(
+            leading: ConstrainedBox(
+              constraints: BoxConstraints(
+                minWidth: 44,
+                minHeight: 44,
+                maxWidth: 64,
+                maxHeight: 64,
+              ),
+              child: Image.network(
+                '${_model.logoImage}',
+                fit: BoxFit.cover,
+              ),
+            ),
+            title: Text('${_model.name}'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    print('${_model.urls}');
+                    return HotPepperWebView(
+                      linkUrl: '${_model.urls}',
+                    );
+                  },
+                ),
+              );
+            },
+          ),
+          SizedBox(
+            height: 10,
+          ),
         ],
       ),
     );
-    // return Card(
-    //   child: ListTile(
-    //     title: Text('${_model.articleTitle}'),
-    //     trailing: Column(children: [
-    //       Icon(
-    //         Icons.favorite,
-    //         color: Colors.pinkAccent,
-    //       ),
-    //       Text('${_model.likedCount}'),
-    //     ]),
-    //     onTap: () {
-    //       Navigator.push(context, MaterialPageRoute(builder: (context) {
-    //         print(
-    //             'https://zenn.dev/${_model.username}/articles/${_model.slug}');
-    //         return ArticleWebView(
-    //           linkUrl:
-    //               'https://zenn.dev/${_model.username}/articles/${_model.slug}',
-    //         );
-    //       }));
-    //     },
-    //   ),
-    // );
   }
 }
