@@ -4,7 +4,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:practice_riverpod/modules/hotpepper_list/controller/hotpepper_list_controller_provider.dart';
 import 'package:practice_riverpod/modules/hotpepper_list/widget/hotpepper_list_item_widget.dart';
 import 'package:practice_riverpod/modules/hotpepper_list/widget/hotpepper_shimmer_widget.dart';
-import 'package:shimmer/shimmer.dart';
 
 class HotPepperListPage extends HookWidget {
   @override
@@ -45,6 +44,9 @@ class HotPepperListPage extends HookWidget {
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.done) {
                     return _buildList();
+                  }
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return HotPepperShimmer();
                   } else {
                     return HotPepperShimmer();
                   }

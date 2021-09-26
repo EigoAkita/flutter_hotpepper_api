@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 class HotPepper {
   final double? lat;
   final double? lng;
@@ -37,4 +39,25 @@ class HotPepper {
       logoImage: json['logo_image'],
     );
   }
+
+  @override
+  bool operator ==(Object other) {
+    // TODO: implement ==
+    return other is HotPepper &&
+        other.lat == lat &&
+        other.lng == lng &&
+        other.urls == urls &&
+        other.name == name &&
+        other.logoImage == logoImage;
+  }
+
+  @override
+  // TODO: implement hashCode
+  int get hashCode => hashValues(
+        lat,
+        lng,
+        urls,
+        name,
+        logoImage,
+      );
 }
